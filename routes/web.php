@@ -21,4 +21,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/about', 'HomeController@index')->name('home');
-Route::get('/us', 'HomeController@index')->name('home');
+Route::get('/updatelatest', 'HomeController@index')->name('home');

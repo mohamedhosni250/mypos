@@ -15,19 +15,22 @@
 
         <section class="content">
 
-            <div class="row">
 
-
-
-            </div><!-- end of row -->
-
-            <div class="box box-solid">
-
-                <div class="box-header">
-                    <h3 class="box-title">لوحة التحكم </h3>
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title">@lang('site.dashboard')</h3>
                 </div>
+                <!-- /.box-header -->
+                <!-- form start -->
 
-                <!-- /.box-body -->
+                    <div class="box-body">
+
+                    </div>
+                    <!-- /.box-body -->
+
+                    <div class="box-footer">
+                    </div>
+
             </div>
 
         </section><!-- end of content -->

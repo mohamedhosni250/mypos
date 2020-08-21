@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="611bf7ae-18d6-4a7f-8ea5-cc12a89df33e" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/config/laravellocalization.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/pos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pos.iml" afterDir="false" />
@@ -12,6 +13,10 @@
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/dashboard/_aside.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/dashboard/_aside.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/dashboard/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/dashboard/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/dashboard/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/dashboard/dashboard.php" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 5f9f7a55ae46dccc2d66406826e376cb6bb4cbf5
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +154,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -177,8 +182,13 @@
       <option name="presentableId" value="Default" />
       <updated>1597433238560</updated>
       <workItem from="1597433240291" duration="3176000" />
+<<<<<<< HEAD
       <workItem from="1597686444070" duration="4714000" />
       <workItem from="1598016520873" duration="949000" />
+=======
+      <workItem from="1597686444070" duration="4293000" />
+      <workItem from="1597946703358" duration="316000" />
+>>>>>>> 5f9f7a55ae46dccc2d66406826e376cb6bb4cbf5
     </task>
     <servers />
   </component>
@@ -209,6 +219,7 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1597686753721" />
+<<<<<<< HEAD
     <state x="636" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1598016522200">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -217,5 +228,17 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1598017342173" />
+=======
+    <state x="452" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1597946717530">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="452" y="246" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1597946717530" />
+    <state x="636" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1597686566080" />
+    <state x="443" y="160" width="672" height="477" key="search.everywhere.popup" timestamp="1597947012055">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="443" y="160" width="672" height="477" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1597947012055" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1597689627876" />
+>>>>>>> 5f9f7a55ae46dccc2d66406826e376cb6bb4cbf5
   </component>
 </project>

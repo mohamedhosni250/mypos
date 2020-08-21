@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+<<<<<<< HEAD
 Route::group(['prefix' => LaravelLocalization::setLocale()], function()
 {
     /** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
@@ -20,6 +21,10 @@ Route::group(['prefix' => LaravelLocalization::setLocale()], function()
         return view('dashboard.index');
     })->middleware('auth');
 
+=======
+Route::get('/', function () {
+    return view('dashboard.index');
+>>>>>>> 5f9f7a55ae46dccc2d66406826e376cb6bb4cbf5
 });
 
 

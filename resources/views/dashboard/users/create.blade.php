@@ -19,37 +19,46 @@
             <div class="box box-solid">
 
                 <div class="box box-primary">
-                    <div class="box-header with-border">
-                        <h3 class="box-title">Quick Example</h3>
+                    <div class="box-header with-border ">
+                        <h3 class="box-title" >@lang("site.create_user")</h3>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
-                    <form role="form">
+                    @include('partials._errors')
+                    <form action="{{route('dashboard.users.store')}} " method="post">
+                        @csrf
                         <div class="box-body">
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                <label for="first_name">@lang('site.first_name')</label>
+                                <input type="text" value="{{old('first_name')}}" class="form-control"
+                                       id="first_name"  name="first_name">
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputPassword1">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                <label for="last_name">@lang('site.last_name')</label>
+                                <input type="text" value="{{old('last_name')}}" class="form-control"
+                                       id="last_name" name="last_name" >
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputFile">File input</label>
-                                <input type="file" id="exampleInputFile">
+                                <label for="email">@lang('site.email')</label>
+                                <input type="email" value="{{old('email')}}" class="form-control"
+                                       id="email" name="email" >
+                            </div>
+                            <div class="form-group">
+                                <label for="password">@lang('site.password')</label>
+                                <input type="password" class="form-control"
+                                       id="password" name="password">
+                            </div>
+                            <div class="form-group">
+                                <label for="password_confirmation">@lang('site.password_confirmation')</label>
+                                <input type="password" class="form-control"
+                                       id="password_confirmation" >
+                            </div>
 
-                                <p class="help-block">Example block-level help text here.</p>
-                            </div>
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox"> Check me out
-                                </label>
-                            </div>
                         </div>
                         <!-- /.box-body -->
 
                         <div class="box-footer">
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-primary">@lang('site.add')</button>
                         </div>
                     </form>
                 </div>

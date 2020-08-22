@@ -132,7 +132,14 @@ return [
     'custom' => [
         'attribute-name' => [
             'rule-name' => 'custom-message',
+
         ],
+    ],
+    'attributes' => [
+        'first_name' => 'الاسم الاول ',
+        'last_name' => 'الاسم الاخير ',
+        'email' =>'البريد الالكتروني ',
+        'password' => 'كلمة المرور ',
     ],
 
 ];

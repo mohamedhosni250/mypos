@@ -12,7 +12,7 @@ class UserController extends Controller
     public function index()
     {
         $users = User::all();
-        return view('dashboard.users.index' , compact('users'));
+        return view('dashboard.users.index', compact('users'));
     }
 
 
@@ -24,7 +24,20 @@ class UserController extends Controller
 
     public function store(Request $request)
     {
-        //
+        // info validation
+        $request->validate([
+            'first_name' => 'required',
+            'last_name' => 'required',
+            'password' => 'required',
+            'email' => 'required',
+        ]);
+        // encrypt password
+        $request_data = $request->except('password');
+        $request_data['password'] = bcrypt ($request->password);
+        User::create($request_data);
+        session()->flash('success' , __('site.added_successfully'));
+        return redirect()->route('dashboard.users.index');
+
     }
 
 
@@ -49,6 +62,7 @@ class UserController extends Controller
     public function destroy(User $user)
     {
         User::destroy($user->id);
+        session()->flash('success' , __('site.deleted_successfully'));
 
         return redirect()->route('dashboard.users.index');
     }

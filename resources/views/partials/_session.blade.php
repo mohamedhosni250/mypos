@@ -3,7 +3,7 @@
     <script>
         new Noty({
             type: 'success',
-            layout: 'topRight',
+            layout: 'topLeft',
             text: "{{ session('success') }}",
             timeout: 2000,
             killer: true
